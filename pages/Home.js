@@ -1,7 +1,16 @@
 import React from 'react'
 import { TouchableOpacity, Text } from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import {
+   StyleSheet,
+   KeyboardAvoidingView,
+   View,
+   ActivityIndicator,
+   TouchableOpacity,
+   Image,
+ } from 'react-native';
 
+ 
 const Home = () => {
    const goToAbout = () => {
       Actions.about()
